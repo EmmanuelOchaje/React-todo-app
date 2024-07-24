@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  /* text-align: center; */
+}
+.App {
+  display: grid;
+  place-items: center;
+  /*  border: 1px solid black; */
+  margin-top: 1rem;
+}
+.App h2 {
+  font-size: 3rem;
+  background-color: black;
+  border-radius: 20px;
+  width: 35%;
+  color: white;
+  text-align: center;
+}
+.quest {
+  display: block;
+  margin-top: 2rem;
+  width: auto;
+  text-align: center;
+}
+.quest label {
+  font-size: 1.5rem;
+}
+.quest input {
+  width: 25rem;
+  border: 1px solid gray;
+  border-radius: 50px;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  padding-left: 1.5rem;
+  font-size: 1.3rem;
+}
+.quest button {
+  padding: 0.7rem;
+  background-color: black;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  color: white;
+  width: 7.5rem;
+  cursor: pointer;
+}
+.cont h4 {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 35rem;
+  margin: 1rem;
+  margin-left: 3rem;
+}
+.descrp {
+  width: 40rem;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.descrp .p-cont {
+  line-height: 20px;
+  font-size: 1.3rem;
+
+  padding: 0.1rem;
+}
+.check {
+  float: inline-start;
+  accent-color: black;
+  cursor: pointer;
+}
+.text {
+  margin-left: 2rem;
+  font-weight: 600;
+}
+.descrp button {
+  float: right;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 20px;
+}
